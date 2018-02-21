@@ -12,6 +12,8 @@
 		D98ADFAD2022135A00FB95EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98ADFAB2022135A00FB95EC /* Main.storyboard */; };
 		D98ADFAF2022135A00FB95EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98ADFAE2022135A00FB95EC /* Assets.xcassets */; };
 		D98ADFB22022135A00FB95EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98ADFB02022135A00FB95EC /* LaunchScreen.storyboard */; };
+		D9C9A5E3203DD14A0067F070 /* Vec3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C9A5E2203DD14A0067F070 /* Vec3.swift */; };
+		D9C9A5E5203DE2F90067F070 /* MotionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C9A5E4203DE2F90067F070 /* MotionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		D98ADFAE2022135A00FB95EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D98ADFB12022135A00FB95EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D98ADFB32022135A00FB95EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9C9A5E2203DD14A0067F070 /* Vec3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vec3.swift; sourceTree = "<group>"; };
+		D9C9A5E4203DE2F90067F070 /* MotionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				D98ADFAE2022135A00FB95EC /* Assets.xcassets */,
 				D98ADFB02022135A00FB95EC /* LaunchScreen.storyboard */,
 				D98ADFB32022135A00FB95EC /* Info.plist */,
+				D9C9A5E2203DD14A0067F070 /* Vec3.swift */,
+				D9C9A5E4203DE2F90067F070 /* MotionViewController.swift */,
 			);
 			path = "slashy-controller";
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D98ADFAA2022135A00FB95EC /* ViewController.swift in Sources */,
+				D9C9A5E3203DD14A0067F070 /* Vec3.swift in Sources */,
+				D9C9A5E5203DE2F90067F070 /* MotionViewController.swift in Sources */,
 				D98ADFA82022135A00FB95EC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +283,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3KB6PD5S7X;
 				INFOPLIST_FILE = "slashy-controller/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "gl.slashy-controller";
@@ -289,6 +298,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3KB6PD5S7X;
 				INFOPLIST_FILE = "slashy-controller/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "gl.slashy-controller";
