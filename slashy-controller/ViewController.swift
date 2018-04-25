@@ -18,7 +18,7 @@ class ViewController: UIViewController {
 
     @IBAction func testRequest(_ sender: Any) {
         print("requesting")
-        let url = URL(string: "http://10.231.71.135:9000")
+        let url = URL(string: "http://10.230.240.238:9000")
         let request = URLRequest(url: url!)
         
         NSURLConnection.sendAsynchronousRequest(URLRequest(url: url!), queue: OperationQueue(), completionHandler: { (res, data, err) in
@@ -37,7 +37,7 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "openMotionView" {
             let segueVC = segue.destination as! MotionViewController
